@@ -9,7 +9,7 @@ void main(void)
 	WDTCTL = WDTPW | WDTHOLD;		// stop watchdog timer
 
 	P1DIR |= 0x01;                  // configure P1.0 as output
-	P4DIR |= 0x80;                  // configure P4.7 as output
+	//P4DIR |= 0x80;                  // configure P4.7 as output
 
 	P1OUT |= 0x01;               // Initialize P1.0 to 1
 	//P4OUT |= 0x80;                // Initialize P4.7 to 1
